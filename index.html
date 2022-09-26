@@ -1,106 +1,383 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>LogIn Page</title>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-</head>
-<body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="https://www.techshenanigans.com/">Tech Shenanigans</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Manikandan Balasubramanian</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Free Website Template" name="keywords">
+        <meta content="Free Website Template" name="description">
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Catogeries</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Authors
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Blogs</a>
-          <a class="dropdown-item" href="#">Development</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Business</a>
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@400;700&family=Poppins&display=swap" rel="stylesheet"> 
+
+        <!-- Font Awesome -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="51">
+        <div class="wrapper">
+            <div class="sidebar">
+                <div class="sidebar-text d-flex flex-column h-100 justify-content-center text-center">
+                    <img class="w-100 img-fluid mb-4" src="img/profile.jpg" alt="Image">
+                    <h1 class="mt-2">Manikandan B</h1>
+                    <div class="mb-4" style="height: 22px;">
+                        <h4 class="typed-text-output d-inline-block text-body"></h4>
+                        <div class="typed-text d-none">Web Designer, Web Developer, Front End Developer, Apps Designer, Apps Developer</div>
+                    </div>
+                    <div class="d-flex justify-content-center mt-auto mb-3">
+                        <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
+                        <a class="mx-2" href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="d-flex align-items-end justify-content-between">
+                        <a href="" class="btn btn-block border-right">Download CV</a>
+                        <a href="#contact" class="btn btn-block btn-scroll">Contact Me</a>
+                    </div>
+                </div>
+                <div class="sidebar-icon d-flex flex-column h-100 justify-content-center text-right">
+                    <i class="fas fa-2x fa-angle-double-right text-primary"></i>
+                </div>
+            </div>
+            <div class="content">
+                <!-- About Start -->
+                <div class="container bg-white py-5">
+                    <div class="row px-3">
+                        <div class="col-12">
+                            <h2 class="title position-relative pb-2 mb-4">About Me</h2>
+                        </div>
+                        <div class="col-12">
+                            <p>Sea et gubergren justo invidunt at amet clita. Justo sit justo tempor et invidunt voluptua, lorem voluptua ipsum gubergren et est nonumy magna et vero, sit eos dolor sea sed et dolor erat et. Accusam accusam magna aliquyam eirmod amet est kasd dolore sanctus. Lorem ea vero lorem eos eos sanctus labore. Aliquyam vero ipsum dolor duo clita consetetur stet, aliquyam ipsum sea sed et magna amet dolor.</p>
+                            <div class="row">
+                                <div class="col-sm-6 py-1">
+                                    <h5 class="d-inline text-primary">Name:</h5> Manikandan Balasubramanian
+                                </div>
+                                <div class="col-sm-6 py-1">
+                                    <h5 class="d-inline text-primary">Birthday:</h5> 1 Jan 1994
+                                </div>
+                                <div class="col-sm-6 py-1">
+                                    <h5 class="d-inline text-primary">Degree:</h5> Bachelor
+                                </div>
+                                <div class="col-sm-6 py-1">
+                                    <h5 class="d-inline text-primary">Experience:</h5> 7 Years
+                                </div>
+                                <div class="col-sm-6 py-1">
+                                    <h5 class="d-inline text-primary">Phone:</h5> +91 9768667858
+                                </div>
+                                <div class="col-sm-6 py-1">
+                                    <h5 class="d-inline text-primary">Email:</h5> 
+                                </div>
+                                <div class="col-sm-6 py-1">
+                                    <h5 class="d-inline text-primary">Address:</h5> Chennai
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- About End -->
+
+
+                <!-- Skills Start -->
+                <div class="container bg-white py-5">
+                    <div class="row px-3">
+                        <div class="col-12">
+                            <h2 class="title position-relative pb-2 mb-4">Skills</h2>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2">HTML</p>
+                                    <p class="mb-2">95%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2">CSS</p>
+                                    <p class="mb-2">85%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2">PHP</p>
+                                    <p class="mb-2">90%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2">Javascript</p>
+                                    <p class="mb-2">90%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2">Angular JS</p>
+                                    <p class="mb-2">95%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2">Wordpress</p>
+                                    <p class="mb-2">85%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Skills End -->
+
+
+                <!-- Education Start -->
+                <div class="container bg-white py-5">
+                    <div class="row px-3">
+                        <div class="col-12">
+                            <h2 class="title position-relative pb-2 mb-4">Expericence</h2>
+                        </div>
+                        <div class="col-12">
+                            <div class="border-left border-primary pt-2 pl-4 ml-2">
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Education End -->
+                
+                
+                <!-- Subscribe Start -->
+                <div class="container bg-white py-5 px-0">
+                    <div class="bg-primary text-center p-5">
+                        <h1 class="text-white font-weight-bold">Subscribe My Newsletter</h1>
+                        <p class="text-white">Subscribe and get my latest article in your inbox</p>
+                        <form class="form-inline justify-content-center">
+                            <div class="input-group">
+                                <input type="text" class="form-control border-0 p-4" placeholder="Your Email">
+                                <div class="input-group-append">
+                                    <button class="btn btn-dark px-4" type="submit">Subscribe</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- Subscribe End -->
+
+
+                <!-- Services Start -->
+                <div class="container bg-white pt-5 pb-3">
+                    <div class="row px-3">
+                        <div class="col-12">
+                            <h2 class="title position-relative pb-2 mb-4">Services</h2>
+                        </div>
+                        <div class="col-md-6 service-item text-center mb-3">
+                            <i class="fa fa-2x fa-laptop-code mx-auto mb-4"></i>
+                            <h5 class="mb-2">Web Design</h5>
+                            <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore</p>
+                        </div>
+                        <div class="col-md-6 service-item text-center mb-3">
+                            <i class="fab fa-2x fa-android mx-auto mb-4"></i>
+                            <h5 class="mb-2">Apps Development</h5>
+                            <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore</p>
+                        </div>
+                        <div class="col-md-6 service-item text-center mb-3">
+                            <i class="fa fa-2x fa-search mx-auto mb-4"></i>
+                            <h5 class="mb-2">SEO</h5>
+                            <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore</p>
+                        </div>
+                        <div class="col-md-6 service-item text-center mb-3">
+                            <i class="fa fa-2x fa-edit mx-auto mb-4"></i>
+                            <h5 class="mb-2">Content Creating</h5>
+                            <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Services End -->
+
+
+                <!-- Portfolio Start -->
+                <div class="container bg-white pt-5 pb-3">
+                    <div class="row px-3">
+                        <div class="col-12">
+                            <h2 class="title position-relative pb-2 mb-4">Portfolio</h2>
+                        </div>
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-12 text-center mb-2">
+                                    <ul class="list-inline mb-4" id="portfolio-flters">
+                                        <li class="btn btn-outline-primary active"  data-filter="*"><i class="fa fa-star mr-2"></i>All</li>
+                                        <li class="btn btn-outline-primary" data-filter=".first"><i class="fa fa-laptop-code mr-2"></i>Design</li>
+                                        <li class="btn btn-outline-primary" data-filter=".second"><i class="fa fa-mobile-alt mr-2"></i>Development</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row portfolio-container">
+                                <div class="col-md-6 mb-4 portfolio-item first">
+                                    <div class="position-relative overflow-hidden mb-2">
+                                        <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="">
+                                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                            <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
+                                                <i class="fa fa-4x fa-plus text-white"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4 portfolio-item second">
+                                    <div class="position-relative overflow-hidden mb-2">
+                                        <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="">
+                                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                            <a href="img/portfolio-2.jpg" data-lightbox="portfolio">
+                                                <i class="fa fa-4x fa-plus text-white"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4 portfolio-item first">
+                                    <div class="position-relative overflow-hidden mb-2">
+                                        <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">
+                                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                            <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
+                                                <i class="fa fa-4x fa-plus text-white"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4 portfolio-item second">
+                                    <div class="position-relative overflow-hidden mb-2">
+                                        <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="">
+                                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                            <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
+                                                <i class="fa fa-4x fa-plus text-white"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio End -->
+
+
+                
+
+
+                <!-- Contact Start -->
+                <div class="container bg-white py-5" id="contact">
+                    <div class="row px-3">
+                        <div class="col-12">
+                            <h2 class="title position-relative pb-2 mb-4">Contact Me</h2>
+                        </div>
+                        <div class="col-12">
+                            <div class="contact-form">
+                                <div id="success"></div>
+                                <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                                    <div class="form-row">
+                                        <div class="control-group col-sm-6">
+                                            <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
+                                                required="required" data-validation-required-message="Please enter your name" />
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                        <div class="control-group col-sm-6">
+                                            <input type="email" class="form-control p-4" id="email" placeholder="Your Email"
+                                                required="required" data-validation-required-message="Please enter your email" />
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                    </div>
+                                    <div class="control-group">
+                                        <input type="text" class="form-control p-4" id="subject" placeholder="Subject"
+                                            required="required" data-validation-required-message="Please enter a subject" />
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message"
+                                            required="required"
+                                            data-validation-required-message="Please enter your message"></textarea>
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div>
+                                        <button class="btn btn-primary py-3 px-4" type="submit" id="sendMessageButton">Send Message</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Contact End -->
+                
+                
+                <!-- Footer Start -->
+                <div class="container-fluid bg-white pt-5 px-0">
+                    <div class="container bg-dark text-light text-center py-5">
+                        <div class="d-flex justify-content-center mb-4">
+                            <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-primary btn-square" href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="d-flex justify-content-center mb-3">
+                            <a class="text-white" href="#">Privacy</a>
+                            <span class="px-3">|</span>
+                            <a class="text-white" href="#">Terms</a>
+                            <span class="px-3">|</span>
+                            <a class="text-white" href="#">FAQs</a>
+                            <span class="px-3">|</span>
+                            <a class="text-white" href="#">Help</a>
+                        </div>
+                        <p class="m-0">&copy; All Rights Reserved.</p>
+                    </div>
+                </div>
+                <!-- Footer End -->
+            </div>
         </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
+        
+        <!-- Back to Top -->
+        <a href="#" class="back-to-top"><i class="fa fa-angle-double-up"></i></a>
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox.min.js"></script>
 
-<div class="container">
-	<div class="row">
-		<div style="width: 40%; margin: 25px auto;">
-		<h3 style="text-align: center;">Login Page</h3>
-		<form method="POST" action="">
-			<div class="form-group">
-				<label>UserName:</label><input type="text" name="UserName" class="form-control" autofocus placeholder="username">
-			</div>
-			<div class="form-group">
-				<label>Password:</label><input type="Password" name="Password" class="form-control" autofocus placeholder="Password">
-			</div>
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
 
-      <label>Enter Captcha:</label>
-      <div class="form-row">
-        <div class="form-group col-md-6">
-          <input type="text" class="form-control" readonly id="capt">
-        </div>
-        <div class="form-group col-md-6">
-          <input type="text" class="form-control" id="textinput">
-        </div>
-      </div>
-
-	<div class="form-group">
-				<button onclick="validcap()" class="btn btn-lg btn-success btn-block">Submit</button>
-			</div>
-		</form>
-    <h6>Captcha not visible <img src="refresh.jpg" width="40px" onclick="cap()"></h6>
-    <p>New Here?<a href="">Sign Up</a> </p>
-		<p>Forgotten Password?<a href="">Recover here</a> </p>
-	</div>
-</div>
-</div>
-<script type="text/javascript">
-  function cap(){
-    var alpha = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V'
-                 ,'W','X','Y','Z','1','2','3','4','5','6','7','8','9','0','a','b','c','d','e','f','g','h','i',
-                 'j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z', '!','@','#','$','%','^','&','*','+'];
-                 var a = alpha[Math.floor(Math.random()*71)];
-                 var b = alpha[Math.floor(Math.random()*71)];
-                 var c = alpha[Math.floor(Math.random()*71)];
-                 var d = alpha[Math.floor(Math.random()*71)];
-                 var e = alpha[Math.floor(Math.random()*71)];
-                 var f = alpha[Math.floor(Math.random()*71)];
-
-                 var final = a+b+c+d+e+f;
-                 document.getElementById("capt").value=final;
-               }
-               function validcap(){
-                var stg1 = document.getElementById('capt').value;
-                var stg2 = document.getElementById('textinput').value;
-                if(stg1==stg2){
-                  alert("Form is validated Succesfully");
-                  return true;
-                }else{
-                  alert("Please enter a valid captcha");
-                  return false;
-                }
-               }
-</script>
-</body>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
 </html>
