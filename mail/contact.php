@@ -15,7 +15,7 @@ $body = "You have received a new message from your website contact form.\n\n"."H
 $header = "From: $email";
 $header .= "Reply-To: $email";	
 
-$apiToken = 5344700553:AAGoomGwbpUwBeGGA-h-XoBPzBp0rcx8QEA;
+$apiToken = "5344700553:AAGoomGwbpUwBeGGA-h-XoBPzBp0rcx8QEA";
         $data = [
             'chat_id' => 1482406987, 
             'parse_mode' => 'html', 
@@ -23,6 +23,7 @@ $apiToken = 5344700553:AAGoomGwbpUwBeGGA-h-XoBPzBp0rcx8QEA;
         ];
         $response = file_get_contents("https://api.telegram.org/bot$apiToken/sendMessage?" . http_build_query($data) ); 
 
-if(!mail($to, $subject, $body, $header))
-  http_response_code(500);
+mail($to, $subject, $body, $header);
+//if(!mail($to, $subject, $body, $header))
+ // http_response_code(500);
 ?>
